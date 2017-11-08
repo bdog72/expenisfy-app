@@ -1,7 +1,8 @@
 
 const path = require('path')
 
-module.exports = {
+  module.exports = {
+
   entry: './src/app.js',
   output: {
     path: path.join(__dirname, 'public'),
@@ -27,3 +28,4 @@ module.exports = {
     historyApiFallback: true
   }
 }
+
